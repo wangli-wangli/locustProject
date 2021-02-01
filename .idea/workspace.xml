@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6df44-1597-45b1-b67b-88055afd9ff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locustfile3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/locustProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/locustProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="66a6df44-1597-45b1-b67b-88055afd9ff3" name="Default Changelist" comment="请求参数 读取csv文件">
+      <change afterPath="$PROJECT_DIR$/locustfile4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locustfile5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locustfile3.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="a8b4d03f-4172-41c9-a7d2-b0e2b611b1cc" />
+  <component name="JupyterTrust" id="b721d832-0711-47f7-a70f-8c254a6aaede" />
   <component name="ProjectId" id="1nrMXNYnqA8GgeFCNTYoWmi7ozG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +53,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\locustProject" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -80,8 +103,18 @@
       <workItem from="1611756913554" duration="1346000" />
       <workItem from="1612143799983" duration="297000" />
       <workItem from="1612144321562" duration="1834000" />
-      <workItem from="1612148091531" duration="911000" />
+      <workItem from="1612148091531" duration="3046000" />
+      <workItem from="1612156607149" duration="2780000" />
+      <workItem from="1612160349804" duration="1336000" />
     </task>
+    <task id="LOCAL-00001" summary="请求参数 读取csv文件">
+      <created>1612149293180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612149293180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,10 +132,22 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="请求参数 读取csv文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="请求参数 读取csv文件" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1109" y="463" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612160826018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1109" y="463" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1612160826018" />
     <state x="922" y="229" key="SettingsEditor" timestamp="1612144507388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="229" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612144507388" />
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2" timestamp="1612149302619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612149302619" />
   </component>
 </project>
