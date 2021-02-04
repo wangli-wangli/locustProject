@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a6df44-1597-45b1-b67b-88055afd9ff3" name="Default Changelist" comment="请求参数 读取csv文件">
-      <change afterPath="$PROJECT_DIR$/locustfile4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locustfile5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headLocust/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headLocust/locust.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headLocust/locustfile2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headlessLocust/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headlessLocust/locust.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headlessLocust/locustfile2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locustfile3.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locustfile2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locustfile4.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locustfile5.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="b721d832-0711-47f7-a70f-8c254a6aaede" />
+  <component name="JupyterTrust" id="578d16ef-9eff-4306-94b1-c5fdedfbd73b" />
   <component name="ProjectId" id="1nrMXNYnqA8GgeFCNTYoWmi7ozG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/headlessLocust" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -57,11 +64,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\locustProject\headLocust" />
+      <recent name="D:\PycharmProjects\locustProject" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\locustProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.locustfile2">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="locustProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +95,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="locustProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\robotFrameworkProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="locustfile2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="locustProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\robotFrameworkProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\locustProject\headLocust\locustfile2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.locustfile2" />
+        <item itemvalue="Python.api" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -105,7 +166,12 @@
       <workItem from="1612144321562" duration="1834000" />
       <workItem from="1612148091531" duration="3046000" />
       <workItem from="1612156607149" duration="2780000" />
-      <workItem from="1612160349804" duration="1336000" />
+      <workItem from="1612160349804" duration="1374000" />
+      <workItem from="1612167502782" duration="1819000" />
+      <workItem from="1612174008011" duration="472000" />
+      <workItem from="1612417902352" duration="2000000" />
+      <workItem from="1612419995057" duration="9738000" />
+      <workItem from="1612435484939" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="请求参数 读取csv文件">
       <created>1612149293180</created>
@@ -114,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612149293180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="请求参数 读取csv文件">
+      <created>1612161696650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612161696650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,13 +214,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1109" y="463" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1612160826018" />
+    <state x="1350" y="312" key="FileChooserDialogImpl" timestamp="1612435287267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1350" y="312" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612435287267" />
+    <state width="632" height="247" key="GridCell.Tab.0.bottom" timestamp="1612428124624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
+    <state width="632" height="247" key="GridCell.Tab.0.center" timestamp="1612428124624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
+    <state width="632" height="247" key="GridCell.Tab.0.left" timestamp="1612428124624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
+    <state width="632" height="247" key="GridCell.Tab.0.right" timestamp="1612428124624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
     <state x="922" y="229" key="SettingsEditor" timestamp="1612144507388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="229" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612144507388" />
-    <state x="1104" y="317" key="Vcs.Push.Dialog.v2" timestamp="1612149302619">
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2" timestamp="1612161705037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1104" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612149302619" />
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612161705037" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/locustProject$locustfile2.coverage" NAME="locustfile2 Coverage Results" MODIFIED="1612426227727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locustProject$api.coverage" NAME="api Coverage Results" MODIFIED="1612422940409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

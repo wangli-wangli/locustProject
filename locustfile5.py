@@ -20,7 +20,7 @@ class WebsiteUser(HttpUser):
     @task
     def openAnalysisComCode(self):
         '''生成组合码'''
-        url = "cloud-service/cross/openAnalysisComCode?cNo=1200-d24370ae0&ac=120000"
+        url = "/cloud-service/cross/openAnalysisComCode?cNo=1200-d24370ae0&ac=120000"
         headers = {  # 设置http头部信息
             'content-Type': 'application/json'
         }
