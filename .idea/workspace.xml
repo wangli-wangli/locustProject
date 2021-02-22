@@ -19,18 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6df44-1597-45b1-b67b-88055afd9ff3" name="Default Changelist" comment="请求参数 读取csv文件">
-      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headLocust/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headLocust/locust.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headLocust/locustfile2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headlessLocust/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headlessLocust/locust.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headlessLocust/locustfile2.py" afterDir="false" />
+    <list default="true" id="66a6df44-1597-45b1-b67b-88055afd9ff3" name="Default Changelist" comment="配置运行参数文件">
+      <change afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writeFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locustfile2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/locustfile4.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locustfile5.py" beforeDir="false" afterPath="$PROJECT_DIR$/locustfile5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headLocust/locustfile2.py" beforeDir="false" afterPath="$PROJECT_DIR$/headLocust/locustfile2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headlessLocust/locust.conf" beforeDir="false" afterPath="$PROJECT_DIR$/headlessLocust/locust.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headlessLocust/locustfile2.py" beforeDir="false" afterPath="$PROJECT_DIR$/headlessLocust/locustfile2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="578d16ef-9eff-4306-94b1-c5fdedfbd73b" />
+  <component name="JupyterTrust" id="15728645-5e03-4035-8d4e-fb673acfbeb3" />
   <component name="ProjectId" id="1nrMXNYnqA8GgeFCNTYoWmi7ozG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,15 +60,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\locustProject\headlessLocust" />
+      <recent name="D:\PycharmProjects\locustProject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\locustProject\headLocust" />
       <recent name="D:\PycharmProjects\locustProject" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\locustProject" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.locustfile2">
+  <component name="RunManager" selected="Python.sendCode">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="locustProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,8 +136,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="locustProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\robotFrameworkProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sendCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="locustProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\robotFrameworkProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sendCode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="writeFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="locustProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\robotFrameworkProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/writeFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendCode" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.writeFile" />
         <item itemvalue="Python.locustfile2" />
         <item itemvalue="Python.api" />
       </list>
@@ -171,7 +237,13 @@
       <workItem from="1612174008011" duration="472000" />
       <workItem from="1612417902352" duration="2000000" />
       <workItem from="1612419995057" duration="9738000" />
-      <workItem from="1612435484939" duration="429000" />
+      <workItem from="1612435484939" duration="1236000" />
+      <workItem from="1612489368509" duration="57000" />
+      <workItem from="1612492183642" duration="622000" />
+      <workItem from="1613640145223" duration="780000" />
+      <workItem from="1613699764089" duration="1537000" />
+      <workItem from="1613962812992" duration="9801000" />
+      <workItem from="1613983261954" duration="3221000" />
     </task>
     <task id="LOCAL-00001" summary="请求参数 读取csv文件">
       <created>1612149293180</created>
@@ -187,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612161696650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置运行参数文件">
+      <created>1612436190906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612436190906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +286,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="请求参数 读取csv文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="请求参数 读取csv文件" />
+    <MESSAGE value="配置运行参数文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置运行参数文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1109" y="463" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612160826018">
@@ -218,33 +298,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1350" y="312" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612435287267" />
-    <state width="632" height="247" key="GridCell.Tab.0.bottom" timestamp="1612428124624">
+    <state width="633" height="247" key="GridCell.Tab.0.bottom" timestamp="1613986423476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="632" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
-    <state width="632" height="247" key="GridCell.Tab.0.center" timestamp="1612428124624">
+    <state width="633" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613986423476" />
+    <state width="633" height="247" key="GridCell.Tab.0.center" timestamp="1613986423476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="632" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
-    <state width="632" height="247" key="GridCell.Tab.0.left" timestamp="1612428124624">
+    <state width="633" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613986423476" />
+    <state width="633" height="247" key="GridCell.Tab.0.left" timestamp="1613986423476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="632" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
-    <state width="632" height="247" key="GridCell.Tab.0.right" timestamp="1612428124624">
+    <state width="633" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613986423476" />
+    <state width="633" height="247" key="GridCell.Tab.0.right" timestamp="1613986423476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="632" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612428124624" />
+    <state width="633" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613986423476" />
     <state x="922" y="229" key="SettingsEditor" timestamp="1612144507388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="229" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612144507388" />
-    <state x="1104" y="317" key="Vcs.Push.Dialog.v2" timestamp="1612161705037">
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2" timestamp="1612436200459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1104" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612161705037" />
+    <state x="1104" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612436200459" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/locustProject$locustfile2.coverage" NAME="locustfile2 Coverage Results" MODIFIED="1612426227727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locustProject$login.coverage" NAME="login Coverage Results" MODIFIED="1613985750941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/locustProject$api.coverage" NAME="api Coverage Results" MODIFIED="1612422940409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locustProject$sendCode.coverage" NAME="sendCode Coverage Results" MODIFIED="1613985954809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locustProject$writeFile.coverage" NAME="writeFile Coverage Results" MODIFIED="1613966595865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

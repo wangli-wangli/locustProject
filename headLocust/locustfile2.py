@@ -51,7 +51,7 @@ class WebsiteUser(HttpUser):
         results = self.client.post(url, headers=headers, json=params).text
         #print(results)
 
-    @task(1)
+    @task(0)
     def buildComposeCode(self):
         url = "/cloud-service/cross/buildComposeCode"
         headers = {  # 设置http头部信息
@@ -73,7 +73,7 @@ class WebsiteUser(HttpUser):
             results = self.client.post(url, headers=headers, json=params).text
             #print(results)
 
-    @task(1)
+    @task(0)
     def openAnalysisComCode(self):
         '''生成组合码'''
         url = "/cloud-service/cross/openAnalysisComCode?cNo=1200-d24370ae0&ac=120000"

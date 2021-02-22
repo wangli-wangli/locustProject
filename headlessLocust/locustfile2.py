@@ -49,7 +49,7 @@ class WebsiteUser(HttpUser):
         }
         # json格式
         results = self.client.post(url, headers=headers, json=params).text
-        #print(results)
+        print(results)
 
     @task(1)
     def buildComposeCode(self):
@@ -71,7 +71,7 @@ class WebsiteUser(HttpUser):
             }
             # json格式
             results = self.client.post(url, headers=headers, json=params).text
-            #print(results)
+            print(results)
 
     @task(1)
     def openAnalysisComCode(self):
@@ -82,4 +82,4 @@ class WebsiteUser(HttpUser):
         }
         # json格式
         results = self.client.post(url, headers=headers).text
-        # print(results)
+        print(results)
